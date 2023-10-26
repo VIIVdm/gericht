@@ -1,0 +1,169 @@
+@import url(navBar.css);
+@import url(barRocks.css);
+@import url(reservations.css);
+@import url(aboutUs.css);
+@import url(barDrinks.css);
+@import url(todaySpecial.css);
+@import url(findUs.css);
+@import url(footer.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    margin: 0 auto;
+}
+.container {
+    margin: auto;
+}
+.barHome {
+    width: inherit;
+    height: 1099px;
+    background: url(img/barHome.jpg);
+}
+.barMenu {
+    width: inherit;
+    height: 6510px;
+    background: #0C0C0C;
+    position: relative;
+}
+.barMenuVector {
+    position: absolute;
+    z-index: 0;
+}
+.barMenuLogo {
+    position: absolute;
+    z-index: 1;
+    right: 150px;
+    top: -45px;
+}
+.aboutUsLogo {
+    position: absolute;
+    z-index: 2;
+    top: 770px;
+    left: 150px;
+}
+
+.happyHouse {
+    width: inherit;
+    height: 900px;
+    position: absolute;
+    top: 2970px;
+    background: url(img/drinksFon.jpg) no-repeat;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.happyTop {
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+    margin-bottom: 32px;
+}
+.happyBottom {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.todayLogo {
+    position: absolute;
+    z-index: 1;
+    top: 3965px;
+    right: 207px;
+}
+.findLogo {
+    position: absolute;
+    top: 5025px;
+    left: 97px;
+    z-index: 2;
+}
+
+.subscribeLogo {
+    position: absolute;
+    top: 7280px;
+    right: 175px;
+    z-index: 1;
+}
+
+.subscribe {
+    width: inherit;
+    height: 442px;
+    position: absolute;
+    top: 7400px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribeBlock {
+    height: inherit;
+    width: 1300px;
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    padding: 64px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribeBlock div:first-child {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.subscribeBlock div:nth-child(3) {
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.subscribeBlock div:nth-child(4) {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+.subscribeBlock input {
+    width: 635px;
+    height: 60px;
+    border: 1px solid #F5EFDB;
+    background: #0C0C0C;
+    color: white;
+    padding: 16px 18px;
+    box-sizing: border-box;
+}
+.subscribeBlock button {
+    width: 130px;
+    height: 44px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    margin-left: 32px;
+}

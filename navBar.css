@@ -1,0 +1,57 @@
+.navBar {
+    height: 121px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    box-sizing: border-box;
+    color: white;
+}
+.navBar__logoText {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 32px 0;
+}
+.navBar__catalog {
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 0;
+}
+.navBar__catalog_barHome {
+    margin-left: 180px;
+}
+.navBar__catalog__text {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+}
+.navBar__registration {
+    width: 364px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 0;
+}
+.navBar__registration__text {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+}
+.navBar__registration__img {
+    height: 57px;
+}

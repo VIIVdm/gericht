@@ -1,0 +1,69 @@
+.aboutUs {
+    width: inherit;
+    height: 1045px;
+    position: absolute;
+    z-index: 1;
+    background: url(img/barHome.jpg) no-repeat;
+    top: 770px;
+    display: flex;
+    padding: 110px 310px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.aboutLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.aboutLeft img {
+    display: block;
+}
+
+.aboutRight {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.aboutTextTop {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 8px;
+}
+.aboutTextMiddle {
+    width: 614px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+    margin-bottom: 32px;
+}
+.aboutTextBottom {
+    width: 523px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-bottom: 40px;
+}
+.aboutRight button {
+    width: 141px;
+    height: 44px;
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    border: 1px solid #DCCA87;
+}

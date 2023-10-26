@@ -1,0 +1,86 @@
+.barRocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 77px;
+    color: white;
+    position: relative;
+}
+.barLeft {
+    display: flex;
+    width: 78px;
+    height: 32px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    transform: rotate(-90deg);
+    margin-top: 177px;
+}
+.miniBarLeft {
+    margin-right: 40px;
+}
+.barTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.barTopText {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #DCCA87;
+    margin-top: 32px;
+}
+.barTopDiv {
+    width: 1px;
+    height: 61px;
+    background: white;
+    position: absolute;
+    bottom: 37px;
+}
+.barTop img {
+    border: 1px solid #DCCA87;
+}
+.barRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 58px;
+    margin-right: 37px;
+    letter-spacing: 0.16em;
+}
+.barRightTop {
+    writing-mode: vertical-lr;
+}
+.barRightDiv {
+    height: 16px;
+    color: #DCCA87;
+    width: 1px;
+    background: #DCCA87;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.barRightButtom {
+    writing-mode: vertical-lr;
+    color: #F5EFDB;
+}
+.barHomeTitle {
+    position: absolute;
+    right: 20%;
+    top: 35%;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 181px;
+    line-height: 130%;
+    letter-spacing: 0.055em;
+    text-transform: capitalize;
+}

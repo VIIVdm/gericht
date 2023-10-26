@@ -1,0 +1,79 @@
+.barMenuReservations {
+    position: absolute;
+    z-index: 2;
+    height: 770px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barMenuForm {
+    width: 1365px;
+    height: 465px;
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formTextTop {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+.formTextBottom {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #DCCA87;
+}
+.menuFormInput input {
+    width: 412px;
+    height: 60px;
+    background: #0C0C0C;
+    border: 1px solid #F5EFDB;
+    color: #AAAAAA;
+    padding-left: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 64px 0;
+}
+input[type=date]::-webkit-calendar-picker-indicator{
+	display:none;
+}
+input[type=date]{
+	background: url("img/vectorForm.svg") no-repeat 95% 50%;
+    margin: 0 32px;
+}
+input[type=time]{
+	background: url("img/vectorForm.svg") no-repeat 95% 50%;
+}
+input[type=text]{
+	background: url("img/vectorForm.svg") no-repeat 95% 50%;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.formButton {
+    width: 133px;
+    height: 44px;
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    border: 1px solid #DCCA87;
+}

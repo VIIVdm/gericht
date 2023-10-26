@@ -1,0 +1,108 @@
+.todaySpecial {
+    width: inherit;
+    height: 1274px;
+    position: absolute;
+    top: 3870px;
+    padding: 150px 310px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todaySpecial button {
+    width: 136px;
+    height: 44px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+}
+.todayTop {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.todayBottom {
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+.specialGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 412px);
+    grid-template-rows: 660px;
+    gap: 32px;
+    margin-bottom: 65px;
+}
+.specialGrid img {
+    display: block;
+}
+.wineBeer {
+    display: flex;
+    flex-direction: column;
+}
+.gridTitle {
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 32px;
+    align-self: center;
+    margin-bottom: 48px;
+}
+.gridPrice {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-bottom: 8px;
+    margin-top: 41px;
+}
+.wineBeerPrice div:first-child {
+    margin-top: 0;
+}
+.priceText {
+    width: 192px;
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+}
+.price {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.priceLine {
+    width: 119px;
+    height: 1px;
+    background: white;
+    align-self: center;
+}
+.gridPriceMore {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}

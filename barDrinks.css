@@ -1,0 +1,38 @@
+.barDrinks {
+    width: inherit;
+    height: 1155px;
+    position: absolute;
+    top: 1815px;
+    padding: 201px 311px 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DrinksTopText {
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.drinksBottomText {
+    font-family: 'Cormorant Upright';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #DCCA87;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+.gridDrinks img {
+    display: block;
+}
+.gridDrinks {
+    display: grid;
+    grid-template-columns: repeat(3, 410px);
+    gap: 34px;
+}
